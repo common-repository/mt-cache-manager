@@ -1,0 +1,50 @@
+.clearfix {
+
+}
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+h4 {
+	margin: 0;
+}
+.form-table th,
+.form-wrap label {
+	vertical-align: middle;
+}
+table.mtcachemanager-table {
+	border-bottom: 1px solid #EEE;
+}
+table.mtcachemanager-table:last-child {
+	border-bottom: 0;
+}
+.mtcachemanager-table p.error {
+	color: red;
+}
+pre#map {
+	background: #e5e5e5 none;
+	border-radius: 10px;
+	padding: 10px;
+}
+#poststuff h2 {
+	padding: 0 0 0 10px;
+	margin-top: 0;
+}
+
+.nh-aligncenter {
+	display: block;
+	text-align: center;
+	line-height: 2;
+}
+#latest_news .inside ul,
+#useful-links .inside ul {
+	margin: 0 0 0 12px;
+}
+#useful-links .inside ul li {
+	list-style: square;
+	padding: 0 0 7px;
+}
